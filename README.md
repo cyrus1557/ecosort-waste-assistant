@@ -34,7 +34,7 @@ Categories: Cardboard, Food Organics, Glass, Metal, Miscellaneous Trash, Paper, 
 
 | File | Description |
 |---|---|
-| `ecosort_waste_management.ipynb` | The full notebook with code, outputs and observations for all five parts |
+| `waste_management_summative.ipynb` | The full notebook with code, outputs and observations for all five parts |
 | `README.md` | This file |
 
 ## Data
