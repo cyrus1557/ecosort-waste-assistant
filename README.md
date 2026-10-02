@@ -71,8 +71,8 @@ Main libraries: TensorFlow/Keras, PyTorch, Hugging Face Transformers, sentence-t
 
 ## Team
 
-- Erastus Kirui
-- *(add team members)*
+- Cyrus Kirui
+- Nick Kiptoo
 
 ## Acknowledgements
 
