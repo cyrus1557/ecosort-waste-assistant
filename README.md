@@ -72,7 +72,7 @@ Main libraries: TensorFlow/Keras, PyTorch, Hugging Face Transformers, sentence-t
 ## Team
 
 - Cyrus Kirui
-- Nick Kiptoo
+- Nickson Kipruto
 
 ## Acknowledgements
 
