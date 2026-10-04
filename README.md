@@ -49,7 +49,7 @@ The data is not included in this repository.
 The notebook was built in **Google Colab** and reads its data from Google Drive.
 
 1. Upload `realwaste.zip`, `waste_descriptions.csv` and `waste_policy_documents.json` to a folder in your Google Drive.
-2. Open the notebook in Colab and set `DRIVE_DIR` in the first code cell to that folder, for example `"/content/drive/MyDrive/YourFolderName"`.
+2. Open the notebook in Colab and set `DRIVE_DIR` in the first code cell to that folder, for example,`"/content/drive/MyDrive/YourFolderName"`.
 3. Select a GPU: **Runtime > Change runtime type > T4 GPU**.
 4. Run **Runtime > Run all**. A full run takes about 40 minutes. Trained models are saved to a `models` folder in the same Drive folder (about 1.5 GB).
 
@@ -58,9 +58,9 @@ Main libraries: TensorFlow/Keras, PyTorch, Hugging Face Transformers, sentence-t
 ## Key design decisions
 
 - **Fixed image split:** the provided split leaked 129 images between validation and test. The held-out images are split by file path instead (475 validation, 475 test, no overlap).
-- **Conflicting policies:** some documents contradict each other (for example on window glass and plastic bags). The category-specific policy wins, and contradicting lines are removed before indexing.
+- **Conflicting policies:** some documents contradict each other (for example, on window glass and plastic bags). The category-specific policy wins, and contradicting lines are removed before indexing.
 - **Grounded generation:** the generator is trained to answer from the retrieved documents. When the policy text is edited, the answer follows the edit.
-- **Data-driven confidence thresholds:** 0.7 for images and 0.85 for text, chosen from validation and challenge-set results. Below the threshold the assistant asks the user to confirm.
+- **Data-driven confidence thresholds:** 0.7 for images and 0.85 for text, chosen from validation and challenge-set results. Below the threshold, the assistant asks the user to confirm.
 
 ## Limitations
 
