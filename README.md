@@ -64,10 +64,12 @@ Main libraries: TensorFlow/Keras, PyTorch, Hugging Face Transformers, sentence-t
 
 ## Limitations
 
-- The text data is generated and templated, so test scores overstate real-world performance.
-- All photos have similar grey backgrounds, so real resident photos may score lower.
-- The generator mostly copies policy lines rather than writing new explanations.
-- Some errors are made with high confidence, and inputs that are not waste items still receive a category.
+## Limitations
+
+- The text data is largely generated and templated, which may result in higher test performance than would be achieved with real-world user inputs.
+- The images have relatively consistent grey backgrounds, so the model may perform less accurately on real photos with different lighting, backgrounds, and conditions.
+- The response generator mainly relies on existing policy statements rather than producing fully original explanations.
+- The system may sometimes make incorrect predictions with high confidence, and it may assign a waste category even when the input is not a waste item.
 
 ## Team
 
