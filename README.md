@@ -73,6 +73,8 @@ Main libraries: TensorFlow/Keras, PyTorch, Hugging Face Transformers, sentence-t
 
 - Cyrus Kirui
 - Nickson Kipruto
+- Peter Kyalo
+- Martin Ngemu
 
 ## Acknowledgements
 
